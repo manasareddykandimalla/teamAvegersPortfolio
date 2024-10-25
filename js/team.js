@@ -20,6 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="${member.linkedin}" target="_blank" rel="noopener noreferrer" class="linkedin">
                     <i class="fa fa-linkedin"></i>
                 </a>
+                <a href="/map.html" target="_self" rel="noopener noreferrer" class="map marker">
+                    <i class="fa fa-map-marker"></i>
+                </a>
+
                 
             </div>
             
