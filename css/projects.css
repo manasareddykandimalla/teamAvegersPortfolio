@@ -18,6 +18,7 @@
 }
 
 .project-card {
+    max-width: 50%;
     background: var(--card-bg);
     border-radius: 15px;
     overflow: hidden;
@@ -84,4 +85,20 @@
 .project-link:hover {
     background-color: var(--secondary-color);
     transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        min-width: 100%;
+        padding: 16px; /* Adjust as needed */
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 388px) {
+    .project-card {
+        min-width: 100%;
+        padding: 8px; /* Reduce padding for very small screens */
+        box-sizing: border-box;
+    }
 }
