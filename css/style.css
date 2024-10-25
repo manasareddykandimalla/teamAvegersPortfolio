@@ -98,7 +98,7 @@ body {
 
 @keyframes fly {
     0% {
-        transform: translate(1vw, 400px) rotate(45deg); /* Start position */
+        transform: translate(1vw, 220px) rotate(45deg); /* Start position */
     }
     
     100% {

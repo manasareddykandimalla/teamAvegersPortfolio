@@ -2,18 +2,18 @@ const teamMembers = [
     {
         id: 1,
         name: "Bojadla Balaji",
-        title: "Full Stack Developer",
-        role: "Frontend Architect",
+        title: "Software Developer",
+        role: "Machine Learning Engineer",
         location: {
             lat: 16.792151444341382,
             lng: 80.47504994887694,
             city: "Gudem Madhavaram, India"
         },
-        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Luis&eyebrows=default,defaultNatural,flatNatural,frownNatural,raisedExcited,unibrowNatural,raisedExcitedNatural&skinColor=edb98a,ffdbb4&top=dreads01,frizzle,hat,shortCurly,shortFlat,shortRound,shortWaved,sides,theCaesar,theCaesarAndSidePart,winterHat03,winterHat04,shaggy",
+        profile: "https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/1c84e43c-afd5-4580-9fa0-b0dddb78e92f/ea33f5ae-32da-445a-858b-4ff734576ad9.png",
         github: "https://github.com/BojadlaBalaji",
         linkedin: "https://linkedin.com/in/bojadlabalaji",
-        skills: ["JavaScript", "Node.js", "React", "SQL", "MongoDB"],
-        interests: ["Web Development", "AI", "Cloud Computing"]
+        skills: ["Machine Learning","Python","Springboot","J2EE","AzureAI","JavaScript", "Node.js", "React", "SQL"],
+        interests: ["Web Development", "Deep Learning", "Cloud Computing", "Natural Language Processing"]
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const teamMembers = [
             lng: 79.5625,
             city: "Miriyalaguda, India"
         },
-        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Jessica",
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=dsdve",
         github: "https://github.com/manasareddykandimalla",
         linkedin: "https://www.linkedin.com/in/manasa-reddy-562ba91aa/",
         skills: ["Python", "Java", "SQL", "Spark", "Scala", "HTML", "CSS", "Javascript"],
@@ -35,97 +35,100 @@ const teamMembers = [
         id: 3,
         name: "Sai Aasritha Challa",
         title: "Data Engineer",
-        role: "Data Solutions Engineer",
+        role: "Data Engineering Analyst",
         location: {
             lat: 17.2473,
-            lng: 80.1431,
+            lng: 80.1514,
             city: "Khammam, India"
         },
         profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Valentina",
-        github: "https://github.com/SaiChalla",
-        linkedin: "https://linkedin.com/in/saichalla",
-        skills: ["SQL", "Python", "Data Pipelines", "Cloud Platforms", "Data Quality"],
-        interests: ["Data Analytics", "Automation", "Cloud Technologies"]
+        linkedin: "https://www.linkedin.com/in/sai-aasritha-challa-553110210/",
+        skills: ["Python", "SQL", "Spark", "Shell Scripting", "Kafka", "Pyspark"],
+        interests: ["Big Data", "Data Analysis", "Data Engineering"]
     },
     {
         id: 4,
         name: "Sri Charita Kusampudi",
-        title: "Backend Developer",
-        role: "API Developer",
+        title: "Associate Software Engineer ",
+        role: "salesforce developer",
         location: {
-            lat: 17.2473,
-            lng: 80.1431,
-            city: "Khammam, India"
+            lat: 17.2083 ,
+            lng: 80.8395,
+            city: "Sathupalli, India"
         },
-        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Eliza",
-        github: "https://github.com/CharitaKusampudi",
-        linkedin: "https://linkedin.com/in/charitakusampudi",
-        skills: ["Java", "Spring Boot", "SQL", "API Development"],
-        interests: ["Backend Engineering", "Distributed Systems", "Microservices"]
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed= Sara",
+        github: "https://github.com/",
+        linkedin: "https://www.linkedin.com/in/sri-charita-kusampudi-7b70111b3",
+        skills: ["Python","Apex","HTML","CSS"],
+        interests: ["Software development","Dta engineering","Data Analysis"]
     },
     {
         id: 5,
         name: "Pranathi Dasa",
-        title: "Frontend Developer",
-        role: "UI Engineer",
+        title: "QA engineer",
+        role: "Program Analyst",
         location: {
-            lat: 17.3850,
-            lng: 78.4867,
-            city: "Hyderabad, India"
+            lat: 17.4399,
+            lng: 78.4983,
+            city: "Secunderabad, India"
         },
-        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Robert",
-        github: "https://github.com/PranathiDasa",
-        linkedin: "https://linkedin.com/in/pranathidasa",
-        skills: ["HTML5", "CSS3", "JavaScript", "React"],
-        interests: ["UI/UX Design", "Web Development", "Responsive Design"]
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=elisa%22",
+        github: "https://github.com/",
+        linkedin: "https://www.linkedin.com/in/pranathi-dasa-377a99268",
+        skills: ["Python", "SQL", "selenium and java", "XPath", "Functional Testing", "Power BI"],
+        interests: [ "Data Analysis", "Data Engineering"]
+
     },
     {
         id: 6,
         name: "Sahithi Reddy Bathula",
-        title: "Java Developer",
-        role: "Software Engineer",
+        title: "Software Developer",
+        role: " Software Developer ",
         location: {
-            lat: 17.3850,
-            lng: 78.4867,
+            lat: 17.4065,
+            lng: 78.4772,
             city: "Hyderabad, India"
         },
-        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Ryan",
-        github: "https://github.com/SahithiBathula",
-        linkedin: "https://linkedin.com/in/sahithibathula",
-        skills: ["Java", "Software Design", "Object-Oriented Programming"],
-        interests: ["Software Design", "Java Programming", "System Design"]
+        profile: "https://img.freepik.com/premium-vector/girl-with-shirt-that-says-it_169196-12972.jpg?semt=ais_hybrid",
+        github: " https://github.com/sahithibathula21", 
+        linkedin: " https://www.linkedin.com/in/sahithi-bathula-7a462723b/", 
+        skills: ["Java", "SQL", "Python", "HTML", "CSS", "Javascript"],
+        interests: ["Web Development", "Software Development"]
+
+
     },
     {
         id: 7,
         name: "Priyanka Logani",
-        title: "Data Analyst",
-        role: "Data Insights Specialist",
+        title: "Software Developer",
+        role: "Software Developer",
         location: {
-            lat: 17.5539,
-            lng: 80.6174,
-            city: "Vijayawada, India"
+            lat: 17.554356,
+            lng: 80.619736,
+            city: "Bhadradri Kothagudem, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=chris&gender=female",
+        profile: "https://img.freepik.com/premium-photo/young-smiling-woman-ann-avatar-3d-vector-people-character-illustration-cartoon-minimal-style_1240525-12905.jpg?w=360",
         github: "https://github.com/PriyankaLogani",
-        linkedin: "https://linkedin.com/in/priyankalogani",
-        skills: ["Python", "SQL", "Data Analysis", "Project Management"],
-        interests: ["Data Science", "Machine Learning", "Data Visualization"]
+        linkedin: "https://www.linkedin.com/in/priyanka-logani-a74093280/",
+        skills: ["Java", "SQL", "HTML", "CSS" , "Javascript"],
+        interests: ["Big Data", "Data Analysis", "Data Engineering"]
+
     },
     {
         id: 8,
         name: "Mythri Reddy Gaddam",
-        title: "Java Developer",
-        role: "Backend Engineer",
+        title: "Associate Software Engineer",
+        role: "Devops Engineer",
         location: {
-            lat: 19.0968,
-            lng: 78.3439,
+            lat: 19.0905569,
+            lng: 78.3258888,
             city: "Nirmal, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=tony&gender=female",
-        github: "https://github.com/MythriGaddam",
-        linkedin: "https://linkedin.com/in/mythrigaddam",
-        skills: ["Java", "Problem Solving", "Algorithms"],
-        interests: ["Algorithms", "Backend Systems", "Problem Solving"]
+        profile: "https://cgpchristou.com/wp-content/uploads/2023/12/female-avatar.png",
+        github: "https://github.com/mythri-rdy",
+        linkedin: "https://www.linkedin.com/in/mythri-reddy-gaddam/",
+        skills: ["Java", "SQL", "Linux", "HTML", "CSS", "Javascript"],
+        interests: ["Web Development", "Devops Engineering", "Software Development"]
     },
     {
         id: 9,
@@ -133,9 +136,9 @@ const teamMembers = [
         title: "Java Developer",
         role: "Software Engineer",
         location: {
-            lat: 19.0968,
-            lng: 78.3439,
-            city: "Nirmal, India"
+            lat: 18.018742, 
+            lng: 79.582103,
+            city: "Warangal, India"
         },
         profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=thor&gender=female",
         github: "https://github.com/HasinaShaik",
