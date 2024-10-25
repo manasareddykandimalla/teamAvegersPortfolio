@@ -1,0 +1,140 @@
+.team-container {
+    padding: 80px 5% 2rem;
+    min-height: 100vh;
+}
+
+.team-container h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.team-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+                0 6px 6px rgba(0, 0, 0, 0.1),
+                0 0 100px rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: 0.5s;
+}
+
+.team-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2),
+                0 12px 12px rgba(0, 0, 0, 0.1),
+                0 0 120px rgba(0, 0, 0, 0.1) inset;
+}
+
+.team-card:hover::before {
+    left: 100%;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    object-fit: cover;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 0 20px rgba(226, 54, 54, 0.3);
+}
+
+.team-card h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.team-card h3 {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.social-links a {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+.social-links .github:hover {
+    color: #333;
+    background: rgba(51, 51, 51, 0.1);
+}
+
+.social-links .linkedin:hover {
+    color: #0077b5;
+    background: rgba(0, 119, 181, 0.1);
+}
+
+.skills-interests {
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.skills-interests h4 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+}
+
+.tag:hover {
+    transform: scale(1.05);
+}
