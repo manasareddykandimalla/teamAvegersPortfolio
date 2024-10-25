@@ -92,28 +92,28 @@ body {
         transform: translate(0, 0); /* Start position */
     }
     100% {
-        transform: translate(100vw, 0); /* End position */
+        transform: translate(99vw, 0); /* End position */
     }
 }
 
 @keyframes fly {
     0% {
-        transform: translate(0, 400px) rotate(45deg); /* Start position */
+        transform: translate(1vw, 400px) rotate(45deg); /* Start position */
     }
     
     100% {
-        transform: translate(100vw, -50px) rotate(45deg); /* End position */
+        transform: translate(99vw, -50px) rotate(45deg); /* End position */
     }
 }
 @keyframes float {
     0% {
-        transform: translate(0, 0); /* Start position */
+        transform: translate(0, -100px); /* Start position */
     }
     50% {
-        transform: translate(0, 20px); /* Float up */
+        transform: translate(0, -80px); /* Float up */
     }
     100% {
-        transform: translate(0, 0); /* Back to original position */
+        transform: translate(0, -100px); /* Back to original position */
     }
 }
 

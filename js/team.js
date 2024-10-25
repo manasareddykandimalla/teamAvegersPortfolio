@@ -2,6 +2,8 @@ import teamMembers from './data/team.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const teamGrid = document.getElementById('team-grid');
+    // console.log("teammanbers");
+    // console.log(teamMembers);
 
     teamMembers.forEach(member => {
         const card = document.createElement('div');

@@ -18,18 +18,18 @@ const teamMembers = [
     {
         id: 2,
         name: "Manasa Reddy Kandimalla",
-        title: "Data Engineer",
-        role: "Data Pipeline Specialist",
+        title: "Software Engineer",
+        role: "Software Development Engineer",
         location: {
             lat: 16.8732,
             lng: 79.5625,
-            city: "Guntur, India"
+            city: "Miriyalaguda, India"
         },
         profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Jessica",
-        github: "https://github.com/ManasaKandimalla",
-        linkedin: "https://linkedin.com/in/manasakandimalla",
-        skills: ["Python", "Java", "SQL", "Spark", "Scala"],
-        interests: ["Big Data", "Cloud Architecture", "Data Engineering"]
+        github: "https://github.com/manasareddykandimalla",
+        linkedin: "https://www.linkedin.com/in/manasa-reddy-562ba91aa/",
+        skills: ["Python", "Java", "SQL", "Spark", "Scala", "HTML", "CSS", "Javascript"],
+        interests: ["Big Data", "Cloud Architecture", "Data Engineering", "Software Development"]
     },
     {
         id: 3,
