@@ -5,11 +5,11 @@ const teamMembers = [
         title: "Full Stack Developer",
         role: "Frontend Architect",
         location: {
-            lat: 17.3850,
-            lng: 78.4867,
-            city: "Hyderabad, India"
+            lat: 16.792151444341382,
+            lng: 80.47504994887694,
+            city: "Gudem Madhavaram, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=BojadlaBalaji&gender=male",
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Luis&eyebrows=default,defaultNatural,flatNatural,frownNatural,raisedExcited,unibrowNatural,raisedExcitedNatural&skinColor=edb98a,ffdbb4&top=dreads01,frizzle,hat,shortCurly,shortFlat,shortRound,shortWaved,sides,theCaesar,theCaesarAndSidePart,winterHat03,winterHat04,shaggy",
         github: "https://github.com/BojadlaBalaji",
         linkedin: "https://linkedin.com/in/bojadlabalaji",
         skills: ["JavaScript", "Node.js", "React", "SQL", "MongoDB"],
@@ -25,7 +25,7 @@ const teamMembers = [
             lng: 79.5625,
             city: "Guntur, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=ManasaReddyKandimalla&gender=female",
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Jessica",
         github: "https://github.com/ManasaKandimalla",
         linkedin: "https://linkedin.com/in/manasakandimalla",
         skills: ["Python", "Java", "SQL", "Spark", "Scala"],
@@ -41,7 +41,7 @@ const teamMembers = [
             lng: 80.1431,
             city: "Khammam, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=SaiAasrithaChalla&gender=female",
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Valentina",
         github: "https://github.com/SaiChalla",
         linkedin: "https://linkedin.com/in/saichalla",
         skills: ["SQL", "Python", "Data Pipelines", "Cloud Platforms", "Data Quality"],
@@ -57,7 +57,7 @@ const teamMembers = [
             lng: 80.1431,
             city: "Khammam, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=SriCharitaKusampudi&gender=female",
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Eliza",
         github: "https://github.com/CharitaKusampudi",
         linkedin: "https://linkedin.com/in/charitakusampudi",
         skills: ["Java", "Spring Boot", "SQL", "API Development"],
@@ -73,7 +73,7 @@ const teamMembers = [
             lng: 78.4867,
             city: "Hyderabad, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=PranathiDasa&gender=female",
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Robert",
         github: "https://github.com/PranathiDasa",
         linkedin: "https://linkedin.com/in/pranathidasa",
         skills: ["HTML5", "CSS3", "JavaScript", "React"],
@@ -89,7 +89,7 @@ const teamMembers = [
             lng: 78.4867,
             city: "Hyderabad, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=SahithiReddyBathula&gender=female",
+        profile: "https://api.dicebear.com/9.x/avataaars/svg?seed=Ryan",
         github: "https://github.com/SahithiBathula",
         linkedin: "https://linkedin.com/in/sahithibathula",
         skills: ["Java", "Software Design", "Object-Oriented Programming"],
@@ -105,7 +105,7 @@ const teamMembers = [
             lng: 80.6174,
             city: "Vijayawada, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=PriyankaLogani&gender=female",
+        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=chris&gender=female",
         github: "https://github.com/PriyankaLogani",
         linkedin: "https://linkedin.com/in/priyankalogani",
         skills: ["Python", "SQL", "Data Analysis", "Project Management"],
@@ -121,7 +121,7 @@ const teamMembers = [
             lng: 78.3439,
             city: "Nirmal, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=MythriReddyGaddam&gender=female",
+        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=tony&gender=female",
         github: "https://github.com/MythriGaddam",
         linkedin: "https://linkedin.com/in/mythrigaddam",
         skills: ["Java", "Problem Solving", "Algorithms"],
@@ -137,7 +137,7 @@ const teamMembers = [
             lng: 78.3439,
             city: "Nirmal, India"
         },
-        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=HasinaShaik&gender=female",
+        profile: "https://api.dicebear.com/7.x/avataaars/svg?seed=thor&gender=female",
         github: "https://github.com/HasinaShaik",
         linkedin: "https://linkedin.com/in/hasinashaik",
         skills: ["Java", "Problem Solving", "Algorithms"],
