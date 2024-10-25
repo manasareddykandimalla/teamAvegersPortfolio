@@ -4,7 +4,7 @@ const themeIcon = themeToggle.querySelector('.theme-toggle-icon');
 function setTheme(isDark) {
     document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
     themeIcon.innerHTML = isDark ? 
-        '<i class="fas fa-sun"></i>' : 
+        '<i class="fas fa-sun" style="color:white"></i>' : 
         '<i class="fas fa-moon"></i>';
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
 }

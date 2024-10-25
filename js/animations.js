@@ -1,10 +1,55 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // // Typewriter effect
+    // const title = document.querySelector('.typewriter');
+    // title.style.width = '0';
+    // setTimeout(() => {
+    //     title.style.width = '100%';
+    // }, 500);
+
     // Typewriter effect
-    const title = document.querySelector('.typewriter');
-    title.style.width = '0';
-    setTimeout(() => {
-        title.style.width = '100%';
-    }, 500);
+const title = document.querySelector('.typewriter');
+const text = title.textContent.trim(); // Pulling the text from the HTML element
+let index = 0;
+let isDeleting = false;
+let typingInterval;
+let deletingInterval;
+
+// Function to type out the text
+function typeText() {
+    if (!isDeleting) {
+        if (index < text.length) {
+            title.textContent = text.substring(0, index + 1) + "_";
+            index++;
+        } else {
+            // Stop typing and wait 5 seconds before deleting
+            title.textContent = text + "_";
+            clearInterval(typingInterval);
+            setTimeout(() => {
+                isDeleting = true;
+                deletingInterval = setInterval(deleteText, 150); // Start deleting after 5 seconds
+            }, 5000); // Wait 5 seconds before starting to delete
+        }
+    }
+}
+
+// Function to delete the text
+function deleteText() {
+    if (isDeleting) {
+        if (index > 0) {
+            title.textContent = text.substring(0, index - 1) + "_";
+            index--;
+        } else {
+            // Stop deleting and restart typing
+            isDeleting = false;
+            clearInterval(deletingInterval);
+            typingInterval = setInterval(typeText, 150); // Restart typing
+        }
+    }
+}
+
+// Start typing the text
+typingInterval = setInterval(typeText, 150);
+
 
     // Scroll animations
     const observerOptions = {

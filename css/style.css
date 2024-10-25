@@ -48,9 +48,84 @@ body {
     overflow: hidden;
     white-space: nowrap;
     border-right: 3px solid var(--primary-color);
-    animation: typing 3.5s steps(30, end),
-               blink-caret 0.75s step-end infinite;
+    animation: blink-caret 0.75s step-end infinite;
+    caret-color: transparent;
 }
+.hero {
+    position: relative;
+    overflow: hidden;   /* To hide any overflow */
+    text-align: center; /* Center the text content */
+    padding: 100px 0;  /* Increase padding to maintain height */
+    height: 500px;     /* Set a height for the hero section */
+}
+
+.flying-ironman {
+    position: absolute;   /* Allows you to position it freely within the hero section */
+    bottom: 50%;         /* Start at the middle of the hero section */
+    left: -150px;        /* Start just outside the left edge */
+    animation: fly 5s linear infinite; /* Animation for flying effect */
+    z-index: 2;
+}
+.running-cap {
+    position: absolute;   /* Positioning it freely within the hero section */
+    bottom: -2%;          /* Position above the bottom of the hero section */
+    left: -150px;        /* Start just outside the left edge */
+    animation: run 4s linear infinite; /* Animation for running effect */
+}
+
+.floating-wanda {
+    position: absolute;   /* Allows you to position it freely */
+    bottom: 30%;         /* Position Wanda slightly above the bottom */
+    left: 150px;       /* Start just outside the right edge */
+    animation: float 6s linear infinite; /* Floating animation */
+}
+
+.flying-ironman img,
+.running-cap img,
+.floating-wanda img {
+    width: 150px; /* Adjust size as necessary */
+}
+
+@keyframes run {
+    0% {
+        transform: translate(0, 0); /* Start position */
+    }
+    100% {
+        transform: translate(100vw, 0); /* End position */
+    }
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(0, 400px) rotate(45deg); /* Start position */
+    }
+    
+    100% {
+        transform: translate(100vw, -50px) rotate(45deg); /* End position */
+    }
+}
+@keyframes float {
+    0% {
+        transform: translate(0, 0); /* Start position */
+    }
+    50% {
+        transform: translate(0, 20px); /* Float up */
+    }
+    100% {
+        transform: translate(0, 0); /* Back to original position */
+    }
+}
+
+.typewriter {
+    position: relative; /* Ensure the title is above the GIF */
+    z-index: 1;        /* Keep the title above the GIF */
+}
+
+.hero-subtitle {
+    position: relative; /* Keep subtitle above the GIF */
+    z-index: 1;        /* Keep the subtitle above the GIF */
+}
+
 
 .hero-subtitle {
     font-size: 1.5rem;

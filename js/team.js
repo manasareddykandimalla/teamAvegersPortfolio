@@ -15,11 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="social-links">
                 <a href="${member.github}" target="_blank" rel="noopener noreferrer" class="github">
-                    <i class="fab fa-github"></i>
+                    <i class="fa fa-github"></i>
                 </a>
                 <a href="${member.linkedin}" target="_blank" rel="noopener noreferrer" class="linkedin">
-                    <i class="fab fa-linkedin"></i>
+                    <i class="fa fa-linkedin"></i>
                 </a>
+                
             </div>
             
             <div class="skills-interests">

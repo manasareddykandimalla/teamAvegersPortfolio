@@ -6,12 +6,15 @@
     <title>Team Avengers</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
 </head>
 <body>
     <nav id="navbar" class="navbar">
         <div class="nav-content">
-            <div class="logo">A</div>
+            <div class="logo">
+                <img src="path/to/logo.png" alt="Logo" />
+            </div>
             <ul class="nav-links">
                 <li><a href="/" class="active">Home</a></li>
                 <li><a href="/map.html">Map</a></li>
@@ -19,31 +22,46 @@
                 <li><a href="/projects.html">Projects</a></li>
             </ul>
             <button id="themeToggle" class="theme-toggle">
-                <span class="theme-toggle-icon">🌙</span>
+                <span class="theme-toggle-icon">theme</span>
             </button>
         </div>
     </nav>
 
     <main>
-        <section class="hero">
+        <!-- <section class="hero">
             <h1 class="typewriter">Team Avengers </h1>
-            <p class="hero-subtitle">Earth's Mightiest Heroes</p>
+            <p class="hero-subtitle">UC's Mightiest Techies</p>
+        </section> -->
+        <section class="hero">
+            <div class="flying-ironman">
+                <img src="/images/ironman.gif" alt="Iron Man Flying" />
+            </div>
+            <h1 class="typewriter">Team Avengers</h1>
+            <h4 class="hero-subtitle">UC's Mightiest Techies</h4>
+            <div class="running-cap">
+                <img src="/images/cap.gif" alt="Captain America running" />
+            </div>
+            <div class="floating-wanda">
+                <img src="/images/wanda.gif" alt="Wanda floating" />
+            </div>
         </section>
+        
 
         <section class="content-section right">
             <div class="text-content">
                 <h2>Our Team</h2>
-                <p>Meet Earth's mightiest developers, each bringing unique powers to our digital battlefield.</p>
+                <p>Meet UC's mightiest avengers, each bringing unique powers to our digital battlefield.</p>
                 <a href="/team.html" class="cta-button">Meet the Team</a>
             </div>
             <div class="image-content">
-                <img src="/images/team.svg" alt="Team" class="section-image">
+                <img src="/images/team.jpeg" alt="Team" class="section-image">
             </div>
+            
         </section>
 
         <section class="content-section left">
             <div class="image-content">
-                <img src="/images/map.svg" alt="Map" class="section-image">
+                <img src="/images/map.jpeg" alt="Map" class="section-image">
             </div>
             <div class="text-content">
                 <h2>Global Presence</h2>
@@ -59,7 +77,7 @@
                 <a href="/projects.html" class="cta-button">View Projects</a>
             </div>
             <div class="image-content">
-                <img src="/images/projects.svg" alt="Projects" class="section-image">
+                <img src="/images/projects.jpeg" alt="Projects" class="section-image">
             </div>
         </section>
     </main>

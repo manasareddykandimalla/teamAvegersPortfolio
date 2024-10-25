@@ -3,7 +3,7 @@ import teamMembers from './data/team.js';
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize map
     const map = L.map('map').setView([20, 0], 2);
-    
+
     // Add OpenStreetMap tiles with dark mode support
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
@@ -25,11 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    // Initialize an array to hold marker locations
+    const bounds = L.latLngBounds();
+
     // Add markers for each team member
     teamMembers.forEach(member => {
         const marker = L.marker([member.location.lat, member.location.lng], {
             icon: createCustomMarker(member.profile)
         }).addTo(map);
+
+        // Extend the bounds with each marker's location
+        bounds.extend(marker.getLatLng());
 
         // Create popup content
         const popupContent = `
@@ -68,4 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+
+    // Fit the map to the bounds of all markers
+    map.fitBounds(bounds);
 });
