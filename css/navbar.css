@@ -41,6 +41,11 @@
 .nav-links a.active {
     color: var(--primary-color);
 }
+.nav-links a.active {
+    font-weight: bold; /* Highlight active link */
+    color: var(--primary-color); /* Use primary color for active link */
+}
+
 
 .theme-toggle {
     background: none;
@@ -54,8 +59,60 @@
     transform: translateY(-100%);
 }
 
+/* Navbar styles */
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and nav links */
+}
+
+/* Style for the hamburger button */
+.hamburger {
+    display: none; /* Initially hidden on larger screens */
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px; /* Padding around the hamburger button */
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove default border */
+}
+
+/* Color and size of bars in hamburger button */
+.bar {
+    height: 3px; /* Height of bars */
+    width: 25px; /* Width of bars */
+    background-color: var(--primary-color); /* Primary color */
+    margin: 4px 0; /* Space between bars */
+}
+
+/* Show hamburger button on smaller screens */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger on small screens */
+        margin-right: 10px; /* Right margin */
+    }
+}
+
+/* Show nav links when active */
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+/* Hide nav links on smaller screens */
 @media (max-width: 768px) {
     .nav-links {
-        display: none;
+        display: none; /* Hide by default */
+        flex-direction: column; /* Stack links vertically */
+        position: absolute; /* Position them absolutely */
+        top: 50px; /* Adjust as necessary */
+        right: 0; /* Align to the right */
+        background-color: white; /* Background color */
+        width: 200px; /* Width of the dropdown */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+        z-index: 1000; /* Ensure it appears above other elements */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show when active */
     }
 }

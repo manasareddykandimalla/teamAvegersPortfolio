@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team - Avengers Initiative</title>
+    <title>Team Avengers</title>
+    <link rel="icon" href="/images/logo.png" type="image/png">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/team.css">
@@ -11,15 +12,22 @@
 <body>
     <nav id="navbar" class="navbar">
         <div class="nav-content">
-            <div class="logo">A</div>
+            <div class="logo">
+                <img src="/images/logo.png" alt="Logo" style="width: 40px; height: 40px;" />
+            </div>
+            <button id="hamburger" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
             <ul class="nav-links">
-                <li><a href="/">Home</a></li>
+                <li><a href="/" class="active">Home</a></li>
                 <li><a href="/map.html">Map</a></li>
-                <li><a href="/team.html" class="active">Team</a></li>
+                <li><a href="/team.html">Team</a></li>
                 <li><a href="/projects.html">Projects</a></li>
             </ul>
             <button id="themeToggle" class="theme-toggle">
-                <span class="theme-toggle-icon">🌙</span>
+                <span class="theme-toggle-icon">theme</span>
             </button>
         </div>
     </nav>
